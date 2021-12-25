@@ -177,3 +177,14 @@ const plane = {
     }
 }
 
+const courses = [{
+    title: "HTML Academy",
+    price: 300,
+    duration: 7,
+    content: {
+        month1: ['hmtl', 'css', 'css50'],
+        month2: ['js', 'ts'],
+        month3: ['react', 'nodeJS']
+    },
+    rating: 5
+}]

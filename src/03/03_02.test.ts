@@ -1,7 +1,6 @@
 import {CityType} from "../02/02_02";
 import {
     addMoneyToBudget,
-    demolishHousesOnTheStreet,
     greetingMessage,
     repairHouse,
     toFireStaff,
@@ -69,7 +68,7 @@ test.skip("Budget should be changed for FireStation", () => {
 //     - заполните в том же файле еще одну функцию, чтобы тесты прошли
 
 test.skip("Houses should be destroyed", () => {
-    demolishHousesOnTheStreet(city, "Happy Street");
+
 
     expect(city.houses.length).toBe(1)
     expect(city.houses[0].id).toBe(1)
